@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
         Vehiculo miAuto = new Vehiculo();
-        miAuto.QuitarPuerta();
+        miAuto.SumarPuerta();
         System.out.println(miAuto.Puertas);
 
     }
@@ -13,7 +13,7 @@ public class Main {
 class Vehiculo {
     public int Puertas = 4;
 
-    public void QuitarPuerta(){
-        this.Puertas--;
+    public void SumarPuerta(){
+        this.Puertas++;
     }
 }
